@@ -1,0 +1,70 @@
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.swatch-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+.swatch-container > div {
+  margin: 1em;
+}
+.swatch-card {
+  box-shadow: 0 1px 5px #000;
+  -moz-box-shadow: 0 1px 5px #000;
+  -webkit-box-shadow: 0 1px 5px #000;
+  margin-top: 0.5em;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.swatch-main {
+  background-color: #000;
+  height: 250px;
+  width: 100%;
+}
+.swatch-selector-container {
+  display: flex;
+}
+.swatch-selector-container button {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-top: 2px solid #a8a8a8;
+}
+
+/* Btn styles not necessary for this fiddle */
+.btn {
+  box-shadow: 0 1px 5px #000;
+  -moz-box-shadow: 0 1px 5px #000;
+  -webkit-box-shadow: 0 1px 5px #000;
+  cursor: pointer;
+  margin-top: 5em;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #d32f2f;
+  border-radius: 5px;
+  padding: 0.5em 1em 0.5em 1em;
+}
+.btn-container {
+  align-self: start;
+  padding: 1em;
+}
+.btn:hover {
+  background-color: #ab2424;
+}
+
+/* Body styles not necessary for fiddle */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: repeating-linear-gradient(
+    45deg,
+    #ccc,
+    #ccc 10px,
+    #dbdbdb 10px,
+    #dbdbdb 20px
+  );
+}
