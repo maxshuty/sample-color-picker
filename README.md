@@ -9,6 +9,9 @@ Take this repo and make the colors dynamic where a user can pass in any valid li
 Want to go farther? Capture the selected color for any given component and store it in a key value list where the key is the id of the color picker. The value is the color.
 
 Want even more? Instead of storing just one color selection above, store an array of all colors selected by any given color picker.
+```
+{"colorPicker1": ["red", "blue", "green", ...]
+```
 
 ## Demo
 View the demo [**here**](https://codepen.io/maxshuty/pen/MWyBrKB).
