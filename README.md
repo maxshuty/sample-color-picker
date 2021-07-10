@@ -6,7 +6,7 @@ My goal with this was too make a reusable color picker that is totally independe
 ## Bonus challenge
 Take this repo and make the colors dynamic where a user can pass in any valid list of CSS colors for each component!
 
-Want to go farther? Capture the selected color for any given component and store it in a list.
+Want to go farther? Capture the selected color for any given component and store it in a key value list where the key is the id of the color picker. The value is the color.
 
 ## Demo
 View the demo [**here**](https://codepen.io/maxshuty/pen/MWyBrKB).
