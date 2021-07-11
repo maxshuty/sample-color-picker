@@ -10,7 +10,7 @@ Want to go farther? Capture the selected color for any given component and store
 
 Want even more? Instead of storing just one color selection above, store an array of all colors selected by any given color picker.
 ```
-{ "colorPicker1": ["red", "blue", "green", ...] }
+[{ "colorPicker1": ["red", "blue", "green", ...] }]
 ```
 
 ## Demo
